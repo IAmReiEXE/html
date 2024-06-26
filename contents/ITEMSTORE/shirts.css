@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pageb.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header {
+    background-color: #66468D;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.store-name {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.item-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.discount-options {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.shirts-column, .cart-column {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.shirts-column {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

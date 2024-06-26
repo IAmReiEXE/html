@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mike's Store</title>
+    <link rel="stylesheet" href="shirts.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="amogus.png" alt="gone poof">
+        </div>
+        <h1 class="store-name">Mike's Store</h1>
+        <nav>
+            <ul>
+                <li><a href="shirts.html">Home</a></li>
+                <li><a href="stocks.html">Stocks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="shirts-column">
+            <h2>Shirts</h2>
+            <div id="shirts-list"></div>
+            <h2>Jeans</h2>
+            <div id="jeans-list"></div>
+            <h2>Perfume</h2>
+            <div id="perfume-list"></div>
+            <h2>Sando</h2>
+            <div id="sando-list"></div>
+            <h2>Toys</h2>
+            <div id="toys-list"></div>
+        </div>
+        <div class="cart-column">
+            <h2>Cart</h2>
+            <div id="cart"></div>
+            <div>Total Price: $<span id="total-price">0</span></div>
+            <div class="discount-options">
+                <input type="radio" id="student-discount" name="discount" value="senior">
+                <label for="student-discount">Student (10%)</label><br>
+                <input type="radio" id="senior-discount" name="discount" value="pwd">
+                <label for="senior-discount">Senior (20%)</label><br>
+                <input type="radio" id="pwd-discount" name="discount" value="student">
+                <label for="pwd-discount">PWD (30%)</label><br>
+            </div>
+            <button onclick="purchase()">Purchase</button>
+        </div>
+    </div>
+
+    <script src="shirts.js"></script>
+
+</body>
+</html>

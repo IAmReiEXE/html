@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manage Stocks</title>
+    <link rel="stylesheet" href="shirts.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="amogus.png" alt="gone poof">
+        </div>
+        <h1 class="store-name">Mike's Store</h1>
+        <nav>
+            <ul>
+                <li><a href="shirts.html">Home</a></li>
+                <li><a href="stocks.html">Stocks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Stocks</h2>
+        <div id="stocks-list"></div>
+        <div class="add-stock">
+            <label for="stock-name">Item Name:</label>
+            <select id="stock-name">
+                <option value="shirts">Shirts</option>
+                <option value="jeans">Jeans</option>
+                <option value="perfume">Perfume</option>
+                <option value="sando">Sando</option>
+                <option value="toys">Toys</option>
+            </select>
+            <label for="stock-quantity">Quantity:</label>
+            <input type="number" id="stock-quantity" min="1">
+            <button onclick="addStock()">Add Stock</button>
+        </div>
+    </div>
+
+    <script src="stocks.js"></script>
+</body>
+</html>

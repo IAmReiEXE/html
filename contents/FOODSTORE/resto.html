@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="resto.css">
+<title>Mike's Plate</title>
+</head>
+<body>
+<div class="row">
+	<div class="column left">
+    		<h1><b>Mike's Plate Menu</b></h1>
+	<div class="order-container" id="orderContainer">
+	<div class="orderc">
+		<ul>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>
+			<li>Amogus</li>			
+		</ul>
+	</div>
+	</div>
+	</div>
+	<div class="column right">
+		<button class="button" onclick="scrollToItem(1)"><b>Main Dish</b></button>
+		<button class="button" onclick="scrollToItem(7)"><b>Vegetables</b></button>
+		<button class="button" onclick="scrollToItem(11)"><b>Dessert</b></button>
+		<button class="button" onclick="scrollToItem(14)"><b>Drinks</b></button>
+		<button class="button" onclick="scrollToItem(17)"><b>Add ons</b></button>
+	<div class="menu-container" id="menuContainer">
+  	<div class="menu">
+    		<ul>
+      			<li>Main Dishes</li>
+      			<li><img src="pikameal.png" width= 70 height= 70>Regular Pikameal  ................................... 99php</li>
+      			<li><img src="pikameal.png" width= 70 height= 70>Large Pikameal ....................................... 149php</li>
+      			<li><img src="pikameal.png" width= 70 height= 70>Special Pikameal  .................................. 180php</li>
+      			<li><img src="snormeal.png" width= 70 height= 70>Regular Snormeal   .................................. 89php</li>
+			<li><img src="snormeal.png" width= 70 height= 70>Large Snormeal    ..................................... 139php</li>
+
+      			<li>Vegetables</li>
+      			<li><img src="mike.png" width= 70 height= 70>Mike's Vegspecial 1   .................................. 80php</li>
+      			<li><img src="mike.png" width= 70 height= 70>Mike's Vegspecial 2   .................................. 80php</li>
+      			<li><img src="mike.png" width= 70 height= 70>Mike's Vegspecial 3   .................................. 80php</li>
+
+      			<li>Dessert</li>
+      			<li><img src="pokecones.png" width= 70 height= 70>Pokecones   .............................................. 30php</li>
+      			<li><img src="pokedons.png" width= 70 height= 70>Pokedons .................................................. 40php </li>
+      			<li><img src="pokerons.png" width= 70 height= 70>Pokerons   .................................................. 50php </li>
+
+      			<li>Drinks</li>
+      			<li><img src="psydrink.png" width= 70 height= 70>Psyduck Drink   ......................................... 60php</li>
+      			<li><img src="mewdrink.png" width= 70 height= 70>Mew Drink   ......................................... 60php</li>
+      			<li><img src="pikadrink.png" width= 70 height= 70>Pikachu Drink   .......................................... 75php</li>
+.
+      			<li>Add ons</li>
+      			<li><img src="fries.png" width= 70 height= 70>Fries   ...................................................... 25php</li>
+      			<li><img src="mash.png" width= 70 height= 70>Mashed Potato   ....................................... 50php</li>
+      			<li><img src="coleslaw.png" width= 70 height= 70>Coleslaw   ................................................ 70php</li>
+    		</ul>
+        </div>
+  	</div>
+	</div>
+	</div>
+</div>
+ <script>
+    function scrollToItem(index) {
+      var menuContainer = document.getElementById("menuContainer");
+      var listItem = menuContainer.querySelectorAll("li")[index - 1];
+      listItem.scrollIntoView({ behavior: 'smooth' });
+    }
+    function orderCon(ord) {
+      var orderList = document.getElementById("orderc");
+      var liCon = document.createElement("li");
+      liCon.textContent = ord;
+      orderli.appendChild(liCon);
+    }
+ </script>
+</body>
+</html>

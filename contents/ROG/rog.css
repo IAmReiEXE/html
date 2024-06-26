@@ -1,0 +1,285 @@
+html {
+	font-family: Helvetica;
+}
+
+.red {
+	color: darkred;
+}
+
+.black {
+	color: black;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+    	margin: 0px;
+}
+
+.mainfo {
+    	margin: auto;
+    	width: 1200px;
+    	background-color: white;
+    	overflow-y: auto;
+    	border-radius: 0px;
+    	border-style: solid;
+    	border-width: 0px;
+    	border-color: #880404;
+}
+
+.infohead {
+    	color:white ;
+    	background-color: #880404;
+}
+
+.sec {
+    	width: 150px;
+}
+
+.desc {
+    	width: 450px;
+}
+
+.sched {
+    	width: 300px;
+}
+
+.subjects {
+    	text-align: justify;
+    	border-width: 1px;
+    	border-style: solid solid hidden solid;
+}
+
+.tbu {
+    	display: flex;
+}
+
+.tbl {
+    	border: 1px solid #880404;
+    	border-style: none none solid none;
+    	text-align: justify;
+    	font-weight: bold;
+}
+
+.tbr {
+    	border: 1px solid #880404;
+    	border-style: none none solid none;
+    	text-align: justify;
+    	font-weight: bold;
+}
+
+table {
+    	table-layout: auto;
+    	width: 100%;
+    	text-align: justify;
+    	border-collapse: collapse;
+}
+
+.tbh {
+    	border: 1px solid #880404;
+    	border-style: none none solid solid;
+    	font-weight: bold;
+}
+
+td {
+    	border: 1px solid #880404;
+    	border-style: none solid none solid;
+}
+
+.yellow {
+    	text-align: justify;
+    	background-color: #fcfc9c;
+    	border: 1px solid #880404;
+    	border-style: solid none solid none;
+}
+
+.binfo {
+    	margin: auto;
+    	width: 1200px;
+    	background-color: white;
+    	overflow-y: auto;
+    	border-radius: 0px;
+    	border-style: solid;
+    	border-width: 0px; /**/
+    	border-color: #880404;
+}
+
+.bhead {
+    	color:white ;
+    	background-color: #880404;
+}
+
+
+.column {
+    	display: flex;
+}
+
+.cleft {
+    	border-color: #880404;
+    
+}
+
+.cright {
+    	border-color: #880404;
+}
+
+.scholar {
+    	height: 50px;
+    	width: 600px;
+    	text-align: justify;
+    	vertical-align: text-top;
+    	padding-left: 5px;
+}
+
+.fees {
+    	text-align: justify;
+    	border-color: #880404;
+    	border-width: 1px;
+    	border-style: solid;
+    	padding-left: 5px;
+}
+
+.price {
+    	text-align: justify;
+    	width: 200px;
+    	padding-left: 5px;
+}
+
+.truep {
+    	text-align: right;
+    	padding-right: 10px;
+    	padding-top: 5px;
+    	font-weight: bold;
+}
+
+.total {
+    	border-color: #880404;
+    	border-width: 1px;
+    	border-style: solid;
+}
+
+.pay {
+    	width: 600px;
+    	text-align: justify;
+    	padding-left: 5px;
+    	border-style: hidden solid solid hidden;
+}
+
+.install {
+    	padding-left: 25px;
+    	text-align: justify;
+    	width: 300px;
+    	border-color: #880404;
+    	border-width: 1px;
+    	border-style: hidden solid solid hidden;
+}
+
+.terms {
+    	text-align: center;
+    	width: 300px;
+    	border-style: hidden solid solid hidden;
+}
+
+.top {
+    	width: 600px;
+    	text-align: justify;
+    	padding-left: 5px;
+    	border-width: 1px;
+    	border-style: hidden solid hidden hidden;
+}
+
+.rules {
+    	padding-top: 5px;
+    	border-width: 1px;
+    	border-style: hidden solid hidden hidden;
+}
+
+.ruleson {
+    	text-align: justify;
+    	width: 600px;
+}
+
+.list {
+    	padding-right: px;
+}
+
+.listsize{
+    	font-size: 14px;
+}
+
+.theterms {
+    	height: 259px;
+    	border-width: 1px;
+    	border-style: hidden solid solid hidden;
+    	overflow: hidden;
+    	border-color: #880404;
+}
+
+.desc2 {
+    	text-align: justify;
+    	border-width: 1px;
+    	border-color: #880404;
+    	border-style: hidden solid hidden hidden;
+}
+
+.v {
+    	margin: auto;
+    	width: 1200px;
+    	background-color: white;
+    	overflow-y: auto;
+    	border-radius: 0px;
+    	border-style: solid;
+    	border-width: 1px;
+    	border-color: #880404;
+    	display: flex;
+}
+
+.vb {
+    	padding-left: 15px;
+    	text-align: justify;
+    	border-color: #880404;
+    	width: 600px;
+}
+
+.ab {
+    	padding-left: 15px;
+    	text-align: justify;
+    	border-color: #880404;
+    	width: 600px;
+}
+
+.line {
+    	border-width: 0px;
+    	text-align: center;
+}
+
+.by {
+    	border-width: 0px;
+}
+
+.leftimg {
+    	float: inline-start;
+    	width: 135px;
+    	height: 135px;
+    	object-fit: contain;
+}
+
+.rightimg {
+    	float: inline-end;
+    	width: 135px;
+    	height: 135px;
+    	object-fit: contain;
+}
+
+.topmost {
+    margin: auto;
+    text-align: center;
+    width: 1200px
+}
